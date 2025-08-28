@@ -20,10 +20,10 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm i
-      - name: Secrets
-        run: echo ${{secrets.GH_TOKEN}} | sed 's/./& /g'
-      # - name: Release
-      #   run: npm run release
+      - name: Release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npm run release
 
 
 
