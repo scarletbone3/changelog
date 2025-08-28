@@ -4,9 +4,15 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
+      "@semantic-release/changelog",
+      {
+        "cahngelogFile": "./CHANGELOG.md"
+      }
+    ],
+    [
       "@semantic-release/github",
       {
-        "assets": []
+        "assets": ["./CHANGELOG.md"]
       }
     ]
   ]
