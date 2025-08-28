@@ -1,0 +1,23 @@
+{
+  "name": "changelog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarletbone3/changelog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scarletbone3/changelog/issues"
+  },
+  "homepage": "https://github.com/scarletbone3/changelog#readme",
+  "devDependencies": {
+    "semantic-release": "^24.2.7"
+  }
+}
