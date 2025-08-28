@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/scarletbone3/changelog#readme",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^24.2.7"
   }
 }
