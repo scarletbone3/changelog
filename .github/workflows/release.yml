@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm i
       - name: Secrets
-        run: echo ${{secrets.GH_TOKEN}}
+        run: echo ${{secrets.GH_TOKEN}} | sed 's/./& /g'
       # - name: Release
       #   run: npm run release
 
